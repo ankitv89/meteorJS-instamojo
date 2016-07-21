@@ -1,6 +1,11 @@
 #Instamojo Payment Package
 
-##To add
+Use this package to ue the [Instamojo](https://imjo.in/NvQhd) Payment Gateway to your applications
+
+
+#INSTTRUCTIONS
+
+###To include the package
 ```javascript
 meteor add ankitv89:instamojo
 ```
