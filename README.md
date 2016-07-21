@@ -81,4 +81,4 @@ Instamojo.getRefundDetails(instamojo_headers,id)
 ```
 Id is the refunds ID.
 
-For more details please refer to [Indtamojo API Doc](https://docs.instamojo.com/v1.1/docs)
+For more details please refer to [Instamojo API Doc](https://docs.instamojo.com/v1.1/docs)
