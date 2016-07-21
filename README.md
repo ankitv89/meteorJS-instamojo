@@ -3,7 +3,7 @@
 Use this package to ue the [Instamojo](https://imjo.in/NvQhd) Payment Gateway to your applications
 
 
-#INSTTRUCTIONS
+#INSTRUCTIONS
 
 ###To include the package
 ```javascript
