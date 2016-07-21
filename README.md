@@ -82,3 +82,8 @@ Instamojo.getRefundDetails(instamojo_headers,id)
 Id is the refunds ID.
 
 For more details please refer to [Instamojo API Doc](https://docs.instamojo.com/v1.1/docs)
+
+
+
+###License 
+MIT License - [Read Here](https://github.com/ankitv89/meteorJS-instamojo/blob/master/licence.md)
