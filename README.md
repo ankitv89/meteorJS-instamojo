@@ -15,7 +15,9 @@ Add the following line to Meteor.startup in Server
 mojo = Instamojo('API_KEY', 'AUTH_TOKEN');
 ```
 
-Note: If you're using this wrapper with our sandbox environment https://test.instamojo.com/ then you should pass 'https://test.instamojo.com/api/1.1/' as third argument to the Instamojo class while initializing it. API key and Auth token for the same can be obtained from https://test.instamojo.com/developers/ (Details: Test Or Sandbox Account).
+### Note:
+
+If you're using this wrapper with our sandbox environment https://test.instamojo.com/ then you should pass 'https://test.instamojo.com/api/1.1/' as third argument to the Instamojo class while initializing it. API key and Auth token for the same can be obtained from https://test.instamojo.com/developers/ (Details: Test Or Sandbox Account).
 
 ```javascript
 mojo = Instamojo('API_KEY', 'AUTH_TOKEN', 'https://test.instamojo.com/api/1.1/');
