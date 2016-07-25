@@ -2,7 +2,7 @@
 import { Tinytest } from "meteor/tinytest";
 
 // Import and rename a variable exported by instamojo.js.
-import { name as packageName } from "meteor/ankitv89:instamojo";
+import { name as packageName } from "meteor/instamojo:instamojo";
 
 // Write your tests here!
 // Here is an example.
