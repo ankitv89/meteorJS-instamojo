@@ -13,19 +13,17 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.3.5.1');
   api.use(['ecmascript','underscore', 'ejson']);
-  api.use('http' ,{ weak: true });
+  api.use('http', { weak: true });
   api.mainModule('instamojo.js');
 
-  api.addFiles('instamojo.js',"server");
-  api.export('Instamojo',["client","server"]);
-  api.export('HEADERS',"server");
-
+  api.addFiles('instamojo.js', "server");
+  api.export('Instamojo', ["client", "server"]);
+  api.export('HEADERS', "server");
 
 });
 
 Package.onTest(function(api) {
-  api.use(['ecmascript','http'] );
-
+  api.use(['ecmascript', 'http']);
   api.use('tinytest');
   api.use('ankitv89:instamojo');
   api.mainModule('instamojo-tests.js');
