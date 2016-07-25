@@ -7,7 +7,7 @@ Use this package to ue the [Instamojo](https://imjo.in/NvQhd) Payment Gateway to
 
 ###To include the package
 ```javascript
-meteor add ankitv89:instamojo
+meteor add instamojo:instamojo
 ```
 
 Add the following line to Meteor.startup in Server
@@ -15,7 +15,9 @@ Add the following line to Meteor.startup in Server
 mojo = Instamojo('API_KEY', 'AUTH_TOKEN');
 ```
 
-Note: If you're using this wrapper with our sandbox environment https://test.instamojo.com/ then you should pass 'https://test.instamojo.com/api/1.1/' as third argument to the Instamojo class while initializing it. API key and Auth token for the same can be obtained from https://test.instamojo.com/developers/ (Details: Test Or Sandbox Account).
+### Note:
+
+If you're using this wrapper with our sandbox environment https://test.instamojo.com/ then you should pass 'https://test.instamojo.com/api/1.1/' as third argument to the Instamojo class while initializing it. API key and Auth token for the same can be obtained from https://test.instamojo.com/developers/ (Details: Test Or Sandbox Account).
 
 ```javascript
 mojo = Instamojo('API_KEY', 'AUTH_TOKEN', 'https://test.instamojo.com/api/1.1/');
@@ -91,4 +93,4 @@ For more details please refer to [Instamojo API Doc](https://docs.instamojo.com/
 
 
 ###License 
-MIT License - [Read Here](https://github.com/ankitv89/meteorJS-instamojo/blob/master/license.md)
+MIT License - [Read Here](https://github.com/instamojo/meteorJS-instamojo/blob/master/license.md)
