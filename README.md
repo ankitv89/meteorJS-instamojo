@@ -12,7 +12,7 @@ meteor add ankitv89:instamojo
 
 Add the following line to Meteor.startup in Server
 ```javascript
-instamojo_headers={'X-Api-Key': 'API_KEY','X-Auth-Token':'API_TOKEN'};
+mojo = Instamojo('API_KEY', 'AUTH_TOKEN');
 ```
 
 
@@ -21,7 +21,7 @@ These Methods will only work on server side
 
 ###Create Payment Request
 ```javascript
-Instamojo.createRequest(payload,instamojo_headers);
+mojo.createRequest(payload);
 ```
 Example Payload:
 ```javascript
@@ -40,21 +40,21 @@ var payload = {
 
 ###List Payment Request
 ```javascript
-Instamojo.listRequest(instamojo_headers);
+mojo.listRequest();
 ```
 
 
 ###Request Details
 ```javascript
-Instamojo.getRequestDetails(instamojo_headers,id);
+mojo.getRequestDetails(id);
 ```
-id is the payment id for which the request is to be made.
+`id` is the payment ID for which the request is to be made.
 
 
 ###Payment Details
 
 ```javascript
-Instamojo.getPaymentDetails(instamojo_headers,payment_request_id,payment_id);
+mojo.getPaymentDetails(payment_request_id, payment_id);
 ```
 Example payload
 ```javascript
@@ -67,17 +67,17 @@ payload = {
 
 ###Create refunds
 ```javascript
-Instamojo.createRefund(payload,instamojo_headers);
+mojo.createRefund(payload);
 ```
 
 ###List refunds
 ```javascript
-Instamojo.listRefund(instamojo_headers);
+mojo.listRefund();
 ```
 
 ###Refund Details
 ```javascript
-Instamojo.getRefundDetails(instamojo_headers,id)
+mojo.getRefundDetails(id)
 ```
 Id is the refunds ID.
 
@@ -86,4 +86,4 @@ For more details please refer to [Instamojo API Doc](https://docs.instamojo.com/
 
 
 ###License 
-MIT License - [Read Here](https://github.com/ankitv89/meteorJS-instamojo/blob/master/licence.md)
+MIT License - [Read Here](https://github.com/ankitv89/meteorJS-instamojo/blob/master/license.md)
