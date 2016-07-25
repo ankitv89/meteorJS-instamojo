@@ -7,7 +7,7 @@ Use this package to ue the [Instamojo](https://imjo.in/NvQhd) Payment Gateway to
 
 ###To include the package
 ```javascript
-meteor add ankitv89:instamojo
+meteor add instamojo:instamojo
 ```
 
 Add the following line to Meteor.startup in Server
@@ -91,4 +91,4 @@ For more details please refer to [Instamojo API Doc](https://docs.instamojo.com/
 
 
 ###License 
-MIT License - [Read Here](https://github.com/ankitv89/meteorJS-instamojo/blob/master/license.md)
+MIT License - [Read Here](https://github.com/instamojo/meteorJS-instamojo/blob/master/license.md)
