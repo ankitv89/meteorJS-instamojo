@@ -1,6 +1,6 @@
 #Instamojo Payment Package
 
-Use this package to ue the [Instamojo](https://imjo.in/NvQhd) Payment Gateway to your applications
+Use this package to use the [Instamojo](https://imjo.in/NvQhd) Payment Gateway to your applications
 
 
 #INSTRUCTIONS
