@@ -1,3 +1,10 @@
+Please use this package now:  [https://github.com/Instamojo/meteorJS-instamojo/](https://github.com/Instamojo/meteorJS-instamojo/) which is now the official release from [Instamojo](https://imjo.in/NvQhd)
+
+```javascript
+meteor add instamojo:instamojo
+```
+
+
 #Instamojo Payment Package
 
 Use this package to ue the [Instamojo](https://imjo.in/NvQhd) Payment Gateway to your applications
