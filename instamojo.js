@@ -38,7 +38,7 @@ Instamojo = function(api_key, auth_token, endpoint){
       return result.data;
     },
     createRefund:function(payload){
-      var url = enpoint + 'refunds/';
+      var url = endpoint + 'refunds/';
       var result = sync_post(url, {params: payload,  headers: headers});
       return result.data;
     },
